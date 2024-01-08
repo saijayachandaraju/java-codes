@@ -1,1 +1,26 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
+
+public class Data1 {
+	public static void main(String args[]) throws Exception{
+		String sql="select * from employee where location='bangalore' ";
+		String url="jdbc:postgresql://localhost:5432/Raju";
+		String username="postgres";
+		String password="1234";
+		Connection con=DriverManager.getConnection(url, username, password);
+		Statement st=con.createStatement();
+		ResultSet rs=st.executeQuery(sql);
+		while(rs.next()) {
+		String emp_id=rs.getString(1);
+		String name=rs.getString(2);
+		String dep=rs.getString(3);
+		String location=rs.getString(4);
+		System.out.println(emp_id+" "+name+" "+dep+" "+location);
+		con.close();
+	}
+
+}
+}
