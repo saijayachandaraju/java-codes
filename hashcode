@@ -1,0 +1,9 @@
+package concat;
+
+public class hashcode {
+	public static void main(String args[]) {
+		String str="ratnakaram";
+		System.out.println(str.hashCode());
+	}
+
+}
