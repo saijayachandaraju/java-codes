@@ -1,0 +1,12 @@
+package concat;
+
+public class cases {
+	public static void main(String args[]) {
+		String str="Raju";
+		System.out.println(str.toLowerCase());
+		System.out.println(str.toUpperCase());
+		
+	}
+
+}
+
