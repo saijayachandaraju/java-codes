@@ -1,0 +1,9 @@
+package concat;
+
+public class Reverse {
+	public static void main(String args[]) {
+		String str="raju";
+		System.out.println(StringFormatter.reverseString("raju"));
+	}
+
+}
