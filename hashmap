@@ -1,0 +1,20 @@
+package concat;
+
+import java.util.HashMap;
+
+public class Hashmap {
+	public static void main(String args[]) {
+		HashMap<String,String>data=new HashMap<String,String>();
+		String key;
+		String value;
+		data.put("title", "iphone");
+		data.put("price", "22000");
+		System.out.println(data);
+		System.out.println(data.get("title"));
+		System.out.println(data.get( "reviews"));
+		
+		
+		
+	}
+
+}
