@@ -1,0 +1,12 @@
+package concat;
+class Length{
+	public static void main(String args[]) {
+		String str="biswajit";
+		System.out.println(str.length());
+	}
+}
+	
+
+
+	
+ 
