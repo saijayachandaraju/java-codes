@@ -1,0 +1,10 @@
+package concat;
+
+public class compare {
+	public static void main(String args[]) {
+		String str1="raju";
+		String str2="ratnakaram";
+		System.out.println(str2.compareTo(str1));
+	}
+
+}
