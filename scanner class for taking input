@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Voting3 {
+	public static void main(String[] args) {
+		System.out.println("Enter your id: ");
+		Scanner StringScanner =new Scanner(System.in);
+		String id=StringScanner.next();
+		System.out.println(id+" is the student id");
+	}
+
+}
